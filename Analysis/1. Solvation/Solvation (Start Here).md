@@ -1,6 +1,6 @@
 # Solvation Steps
  
-1. Create folder named analysis
+1. In your working directory containing your .gro and .xtc files, create folder named analysis
 
 2. Inside analysis folder create a solvation folder
 
