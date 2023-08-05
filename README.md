@@ -7,4 +7,5 @@ it contains required files, to run the application double-click Analysis Script 
 
 The Python folder contains python scripts and necessary files for each application.
 
-
+Protein Solvent Shell Structure Provides Rapid Analysis of Hydration Dynamics
+https://doi.org/10.1021/acs.jcim.9b00009
