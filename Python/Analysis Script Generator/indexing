@@ -1,9 +1,7 @@
 #!/bin/bash
-#SBATCH --mem=100G
+#SBATCH --mem=64G
+#SBATCH --ntasks-per-node=1
 #SBATCH --nodes=1
-#SBATCH --ntasks=8
-#SBATCH --partition=wsu_gen_gpu.q
-#SBATCH --gres=gpu:1
 
 
 #SBATCH -J indexing # Job Name

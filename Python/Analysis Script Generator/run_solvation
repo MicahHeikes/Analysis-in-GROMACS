@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --mem=64G
-#SBATCH --ntasks-per-node=8
+#SBATCH --ntasks-per-node=1
 #SBATCH --nodes=1
 
 
-#SBATCH -J 1EEZSolvation # Job Name
+#SBATCH -J Solvation # Job Name
 #SBATCH -o Solv_output.%j # Output file name (%j expands to jobID)
 #SBATCH -e Solv_out.%j # Error file name (%j expands to jobid)
 #SBATCH -t 48:00:00 # Run time (hh:mm:ss) - 1.5 hours; do 48 h as default
